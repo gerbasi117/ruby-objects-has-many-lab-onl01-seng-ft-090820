@@ -20,7 +20,8 @@ describe 'Post' do
   end
 
   describe '.all' do
-    
+    it 'is a class method that returns an array of all post instances that have been created' do
+      expect(Post.all).to match([post, post2])
     end
   end
 
