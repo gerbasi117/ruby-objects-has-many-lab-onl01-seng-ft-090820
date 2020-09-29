@@ -31,7 +31,5 @@ describe "Artist" do
         expect(adele.songs.last.name).to eq("Rolling in the Deep")
         expect(adele.songs.last.artist).to eq(adele)
       end
-    #end
-    #end
     end
 end
