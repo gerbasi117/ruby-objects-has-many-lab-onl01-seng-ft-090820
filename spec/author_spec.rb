@@ -16,9 +16,7 @@ describe "Author" do
       end
     end
 
-    
-
-    describe "#add_post" do
+     describe "#add_post" do
       it "takes in an argument of a post and associates that post with the author by telling the post that it belongs to that author" do
         hello_world = Post.new("Hello World")
         betty.add_post(hello_world)
