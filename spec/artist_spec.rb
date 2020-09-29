@@ -32,6 +32,6 @@ describe "Artist" do
         expect(adele.songs.last.artist).to eq(adele)
       end
     #end
-    end
+    #end
     end
 end
